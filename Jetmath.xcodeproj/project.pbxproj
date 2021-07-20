@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C58C566126A7413200308C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C566026A7413200308C8A /* AppDelegate.swift */; };
+		C58C566326A7413200308C8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C566226A7413200308C8A /* SceneDelegate.swift */; };
+		C58C566526A7413200308C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C566426A7413200308C8A /* ViewController.swift */; };
+		C58C566826A7413200308C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58C566626A7413200308C8A /* Main.storyboard */; };
+		C58C566B26A7413200308C8A /* Jetmath.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C58C566926A7413200308C8A /* Jetmath.xcdatamodeld */; };
+		C58C566D26A7413500308C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58C566C26A7413500308C8A /* Assets.xcassets */; };
+		C58C567026A7413500308C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58C566E26A7413500308C8A /* LaunchScreen.storyboard */; };
+		C58C567B26A7413500308C8A /* JetmathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C567A26A7413500308C8A /* JetmathTests.swift */; };
+		C58C568626A7413500308C8A /* JetmathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C568526A7413500308C8A /* JetmathUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C58C567726A7413500308C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58C565526A7413100308C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58C565C26A7413100308C8A;
+			remoteInfo = Jetmath;
+		};
+		C58C568226A7413500308C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58C565526A7413100308C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58C565C26A7413100308C8A;
+			remoteInfo = Jetmath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C58C565D26A7413200308C8A /* Jetmath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jetmath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58C566026A7413200308C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C58C566226A7413200308C8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C58C566426A7413200308C8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C58C566726A7413200308C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C58C566A26A7413200308C8A /* Jetmath.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jetmath.xcdatamodel; sourceTree = "<group>"; };
+		C58C566C26A7413500308C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C58C566F26A7413500308C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C58C567126A7413500308C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58C567626A7413500308C8A /* JetmathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetmathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58C567A26A7413500308C8A /* JetmathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetmathTests.swift; sourceTree = "<group>"; };
+		C58C567C26A7413500308C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58C568126A7413500308C8A /* JetmathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetmathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58C568526A7413500308C8A /* JetmathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetmathUITests.swift; sourceTree = "<group>"; };
+		C58C568726A7413500308C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C58C565A26A7413100308C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C567326A7413500308C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C567E26A7413500308C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C58C565426A7413100308C8A = {
+			isa = PBXGroup;
+			children = (
+				C58C565F26A7413200308C8A /* Jetmath */,
+				C58C567926A7413500308C8A /* JetmathTests */,
+				C58C568426A7413500308C8A /* JetmathUITests */,
+				C58C565E26A7413200308C8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C58C565E26A7413200308C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C58C565D26A7413200308C8A /* Jetmath.app */,
+				C58C567626A7413500308C8A /* JetmathTests.xctest */,
+				C58C568126A7413500308C8A /* JetmathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C58C565F26A7413200308C8A /* Jetmath */ = {
+			isa = PBXGroup;
+			children = (
+				C58C566026A7413200308C8A /* AppDelegate.swift */,
+				C58C566226A7413200308C8A /* SceneDelegate.swift */,
+				C58C566426A7413200308C8A /* ViewController.swift */,
+				C58C566626A7413200308C8A /* Main.storyboard */,
+				C58C566C26A7413500308C8A /* Assets.xcassets */,
+				C58C566E26A7413500308C8A /* LaunchScreen.storyboard */,
+				C58C567126A7413500308C8A /* Info.plist */,
+				C58C566926A7413200308C8A /* Jetmath.xcdatamodeld */,
+			);
+			path = Jetmath;
+			sourceTree = "<group>";
+		};
+		C58C567926A7413500308C8A /* JetmathTests */ = {
+			isa = PBXGroup;
+			children = (
+				C58C567A26A7413500308C8A /* JetmathTests.swift */,
+				C58C567C26A7413500308C8A /* Info.plist */,
+			);
+			path = JetmathTests;
+			sourceTree = "<group>";
+		};
+		C58C568426A7413500308C8A /* JetmathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C58C568526A7413500308C8A /* JetmathUITests.swift */,
+				C58C568726A7413500308C8A /* Info.plist */,
+			);
+			path = JetmathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C58C565C26A7413100308C8A /* Jetmath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58C568A26A7413500308C8A /* Build configuration list for PBXNativeTarget "Jetmath" */;
+			buildPhases = (
+				C58C565926A7413100308C8A /* Sources */,
+				C58C565A26A7413100308C8A /* Frameworks */,
+				C58C565B26A7413100308C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jetmath;
+			productName = Jetmath;
+			productReference = C58C565D26A7413200308C8A /* Jetmath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C58C567526A7413500308C8A /* JetmathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58C568D26A7413500308C8A /* Build configuration list for PBXNativeTarget "JetmathTests" */;
+			buildPhases = (
+				C58C567226A7413500308C8A /* Sources */,
+				C58C567326A7413500308C8A /* Frameworks */,
+				C58C567426A7413500308C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C58C567826A7413500308C8A /* PBXTargetDependency */,
+			);
+			name = JetmathTests;
+			productName = JetmathTests;
+			productReference = C58C567626A7413500308C8A /* JetmathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C58C568026A7413500308C8A /* JetmathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58C569026A7413500308C8A /* Build configuration list for PBXNativeTarget "JetmathUITests" */;
+			buildPhases = (
+				C58C567D26A7413500308C8A /* Sources */,
+				C58C567E26A7413500308C8A /* Frameworks */,
+				C58C567F26A7413500308C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C58C568326A7413500308C8A /* PBXTargetDependency */,
+			);
+			name = JetmathUITests;
+			productName = JetmathUITests;
+			productReference = C58C568126A7413500308C8A /* JetmathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C58C565526A7413100308C8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C58C565C26A7413100308C8A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C58C567526A7413500308C8A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C58C565C26A7413100308C8A;
+					};
+					C58C568026A7413500308C8A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C58C565C26A7413100308C8A;
+					};
+				};
+			};
+			buildConfigurationList = C58C565826A7413100308C8A /* Build configuration list for PBXProject "Jetmath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C58C565426A7413100308C8A;
+			productRefGroup = C58C565E26A7413200308C8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C58C565C26A7413100308C8A /* Jetmath */,
+				C58C567526A7413500308C8A /* JetmathTests */,
+				C58C568026A7413500308C8A /* JetmathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C58C565B26A7413100308C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58C567026A7413500308C8A /* LaunchScreen.storyboard in Resources */,
+				C58C566D26A7413500308C8A /* Assets.xcassets in Resources */,
+				C58C566826A7413200308C8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C567426A7413500308C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C567F26A7413500308C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C58C565926A7413100308C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58C566526A7413200308C8A /* ViewController.swift in Sources */,
+				C58C566B26A7413200308C8A /* Jetmath.xcdatamodeld in Sources */,
+				C58C566126A7413200308C8A /* AppDelegate.swift in Sources */,
+				C58C566326A7413200308C8A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C567226A7413500308C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58C567B26A7413500308C8A /* JetmathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C567D26A7413500308C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58C568626A7413500308C8A /* JetmathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C58C567826A7413500308C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C58C565C26A7413100308C8A /* Jetmath */;
+			targetProxy = C58C567726A7413500308C8A /* PBXContainerItemProxy */;
+		};
+		C58C568326A7413500308C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C58C565C26A7413100308C8A /* Jetmath */;
+			targetProxy = C58C568226A7413500308C8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C58C566626A7413200308C8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C58C566726A7413200308C8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C58C566E26A7413500308C8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C58C566F26A7413500308C8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C58C568826A7413500308C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C58C568926A7413500308C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C58C568B26A7413500308C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jetmath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cyra-Alesha.Jetmath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C58C568C26A7413500308C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jetmath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cyra-Alesha.Jetmath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C58C568E26A7413500308C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JetmathTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cyra-Alesha.JetmathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jetmath.app/Jetmath";
+			};
+			name = Debug;
+		};
+		C58C568F26A7413500308C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JetmathTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cyra-Alesha.JetmathTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jetmath.app/Jetmath";
+			};
+			name = Release;
+		};
+		C58C569126A7413500308C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JetmathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cyra-Alesha.JetmathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jetmath;
+			};
+			name = Debug;
+		};
+		C58C569226A7413500308C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JetmathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Cyra-Alesha.JetmathUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jetmath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C58C565826A7413100308C8A /* Build configuration list for PBXProject "Jetmath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58C568826A7413500308C8A /* Debug */,
+				C58C568926A7413500308C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58C568A26A7413500308C8A /* Build configuration list for PBXNativeTarget "Jetmath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58C568B26A7413500308C8A /* Debug */,
+				C58C568C26A7413500308C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58C568D26A7413500308C8A /* Build configuration list for PBXNativeTarget "JetmathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58C568E26A7413500308C8A /* Debug */,
+				C58C568F26A7413500308C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58C569026A7413500308C8A /* Build configuration list for PBXNativeTarget "JetmathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58C569126A7413500308C8A /* Debug */,
+				C58C569226A7413500308C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C58C566926A7413200308C8A /* Jetmath.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C58C566A26A7413200308C8A /* Jetmath.xcdatamodel */,
+			);
+			currentVersion = C58C566A26A7413200308C8A /* Jetmath.xcdatamodel */;
+			path = Jetmath.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C58C565526A7413100308C8A /* Project object */;
+}
