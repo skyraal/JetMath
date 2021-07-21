@@ -16,6 +16,8 @@
 		C58C567026A7413500308C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58C566E26A7413500308C8A /* LaunchScreen.storyboard */; };
 		C58C567B26A7413500308C8A /* JetmathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C567A26A7413500308C8A /* JetmathTests.swift */; };
 		C58C568626A7413500308C8A /* JetmathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C568526A7413500308C8A /* JetmathUITests.swift */; };
+		F7960EEE26A8723C00F00190 /* Name_PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7960EED26A8723C00F00190 /* Name_PageViewController.swift */; };
+		F7960EF026A873E900F00190 /* Name_Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7960EEF26A873E900F00190 /* Name_Display.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C58C568126A7413500308C8A /* JetmathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetmathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58C568526A7413500308C8A /* JetmathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetmathUITests.swift; sourceTree = "<group>"; };
 		C58C568726A7413500308C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7960EED26A8723C00F00190 /* Name_PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name_PageViewController.swift; sourceTree = "<group>"; };
+		F7960EEF26A873E900F00190 /* Name_Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name_Display.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		C58C565426A7413100308C8A = {
 			isa = PBXGroup;
 			children = (
+				F7960EEF26A873E900F00190 /* Name_Display.swift */,
+				F7960EED26A8723C00F00190 /* Name_PageViewController.swift */,
 				C58C565F26A7413200308C8A /* Jetmath */,
 				C58C567926A7413500308C8A /* JetmathTests */,
 				C58C568426A7413500308C8A /* JetmathUITests */,
@@ -261,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7960EEE26A8723C00F00190 /* Name_PageViewController.swift in Sources */,
 				C58C566526A7413200308C8A /* ViewController.swift in Sources */,
 				C58C566B26A7413200308C8A /* Jetmath.xcdatamodeld in Sources */,
+				F7960EF026A873E900F00190 /* Name_Display.swift in Sources */,
 				C58C566126A7413200308C8A /* AppDelegate.swift in Sources */,
 				C58C566326A7413200308C8A /* SceneDelegate.swift in Sources */,
 			);
