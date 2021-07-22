@@ -85,8 +85,6 @@
 		C58C565426A7413100308C8A = {
 			isa = PBXGroup;
 			children = (
-				F7960EEF26A873E900F00190 /* Name_Display.swift */,
-				F7960EED26A8723C00F00190 /* Name_PageViewController.swift */,
 				C58C565F26A7413200308C8A /* Jetmath */,
 				C58C567926A7413500308C8A /* JetmathTests */,
 				C58C568426A7413500308C8A /* JetmathUITests */,
@@ -107,6 +105,8 @@
 		C58C565F26A7413200308C8A /* Jetmath */ = {
 			isa = PBXGroup;
 			children = (
+				F7960EEF26A873E900F00190 /* Name_Display.swift */,
+				F7960EED26A8723C00F00190 /* Name_PageViewController.swift */,
 				C58C566026A7413200308C8A /* AppDelegate.swift */,
 				C58C566226A7413200308C8A /* SceneDelegate.swift */,
 				C58C566426A7413200308C8A /* ViewController.swift */,

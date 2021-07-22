@@ -17,7 +17,7 @@ class Name_PageViewController: UIViewController {
     
     @IBOutlet weak var enteredName: UITextField!
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if segue.identifier == "segue2"{
+            if segue.identifier == "Segue2"{
                 let destinationController = segue.destination as! Name_Display
                 destinationController.declareString = enteredName.text!
             }

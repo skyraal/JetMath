@@ -8,16 +8,18 @@
 import UIKit
 
 class Name_Display: UIViewController {
+    
+    @IBOutlet weak var nameDisplayed: UILabel!
+    var declareString = ""
 
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        nameDisplayed.text = "Hello /(declareString)"
+        nameDisplayed.text = "Hello " + declareString
         // Do any additional setup after loading the view.
     }
    
-    @IBOutlet weak var nameDisplayed: UILabel!
-    var declareString = String()
+   
   
     /*
     // MARK: - Navigation
