@@ -357,7 +357,43 @@
             </objects>
             <point key="canvasLocation" x="8374" y="108"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="jdu-I7-poQ">
+            <objects>
+                <viewController id="uXi-ms-zVI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iaL-SA-jq7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="congrats-1" translatesAutoresizingMaskIntoConstraints="NO" id="R1P-ts-ntc">
+                                <rect key="frame" x="-45" y="-82" width="504" height="1061"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BL9-zg-yAI">
+                                <rect key="frame" x="338" y="816" width="56" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="28"/>
+                                <state key="normal" title="🏠">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0d8-2t-b2V" kind="presentation" modalPresentationStyle="fullScreen" id="CsU-KS-rOK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2YB-YQ-sjC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KK2-fc-V2M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2422" y="851"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="CsU-KS-rOK"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="3" width="1080" height="1920"/>
         <image name="4" width="1080" height="1920"/>
@@ -366,6 +402,7 @@
         <image name="7" width="1080" height="1920"/>
         <image name="8" width="1080" height="1920"/>
         <image name="9" width="1080" height="1920"/>
+        <image name="congrats-1" width="1080" height="1920"/>
         <image name="course cover" width="324" height="369"/>
         <image name="jetmathlanding" width="222" height="255"/>
         <namedColor name="AccentColor">
