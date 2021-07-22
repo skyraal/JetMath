@@ -260,6 +260,41 @@
             <point key="canvasLocation" x="4040.579710144928" y="89.732142857142847"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="Ufi-xA-0Y0">
+            <objects>
+                <viewController id="zCL-W2-Ici" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PTo-Ao-nBZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Wrong Answer :(" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m8H-8C-gTL">
+                                <rect key="frame" x="114" y="393" width="187" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjH-1e-zJP">
+                                <rect key="frame" x="184" y="523" width="53" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="BACK">
+                                    <color key="titleColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fPp-ZN-Y0Z" kind="presentation" modalPresentationStyle="fullScreen" id="boR-5F-d4r"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uQD-gH-B1x"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Te0-9V-lSn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4898.5507246376819" y="-553.125"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="Iyz-c0-LeW">
             <objects>
                 <viewController id="fPp-ZN-Y0Z" sceneMemberID="viewController">
@@ -276,6 +311,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="tmU-Lq-maw" kind="presentation" modalPresentationStyle="fullScreen" id="sez-iP-DUH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VoB-JW-4ph">
+                                <rect key="frame" x="222" y="394" width="157" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="zCL-W2-Ici" kind="presentation" modalPresentationStyle="fullScreen" id="NeC-Cy-TAM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -438,7 +480,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sez-iP-DUH"/>
+        <segue reference="boR-5F-d4r"/>
         <segue reference="CsU-KS-rOK"/>
     </inferredMetricsTieBreakers>
     <resources>
